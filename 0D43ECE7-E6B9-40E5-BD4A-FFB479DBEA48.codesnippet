@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>doreportv2</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>CodeBlock</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>[[FMDoReportV2Manager sharedInstance] recordClickWithSubActionType:&lt;#subAction#&gt;
+                                                        andReseves:&lt;#reseve#&gt;
+                                                     andSourceInfo:&lt;#nil#&gt;
+                                                 samplingFrequency:&lt;#1#&gt;];</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>0D43ECE7-E6B9-40E5-BD4A-FFB479DBEA48</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>doreportv2 click</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>doreportv2 click</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>sendrequest</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>CodeBlock</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>@weakify(self);
+[[GRNetworkEngine shareInstance] sendRequest:&lt;#req#&gt; completeHandle:^(&lt;#response#&gt; *rsp, NSError *error) {
+        @strongify(self);
+        if (error == nil) {
+            &lt;#code#&gt;
+        } else {
+            &lt;#error code#&gt;
+        }
+    }];</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>49CEDE0A-377F-4D4A-962C-3C91CEA40C03</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>GRNetworkEngine sendRequest</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

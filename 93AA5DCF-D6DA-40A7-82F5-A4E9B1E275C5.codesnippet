@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>nstimer</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>CodeBlock</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>&lt;#timer#&gt; = [NSTimer timerWithTimeInterval:&lt;#time#&gt; block:^(NSTimer *timer) {
+    &lt;#code#&gt;
+} repeats:&lt;#repeats#&gt;];
+    
+[[NSRunLoop currentRunLoop] addTimer:&lt;#timer#&gt; forMode:NSRunLoopCommonModes];</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>93AA5DCF-D6DA-40A7-82F5-A4E9B1E275C5</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>timer blockit</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>
