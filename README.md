@@ -1,0 +1,3 @@
+# xcodesnippet
+cd ~/Library/Developer/Xcode/UserData/CodeSnippets
+git clone ...
