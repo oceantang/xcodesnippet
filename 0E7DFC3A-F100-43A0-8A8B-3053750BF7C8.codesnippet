@@ -3,23 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>@sync</string>
+	<string>otdebug</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>synchronized(&lt;#obj#&gt;) {
-&lt;#code#&gt;
-}</string>
+	<string>NSLog(@"&lt;otdebug&gt; &lt;#code#&gt;");</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>EB2AADC2-15ED-4520-A0F7-187BD6FAC40B</string>
+	<string>0E7DFC3A-F100-43A0-8A8B-3053750BF7C8</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Generic</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>@synchronized</string>
+	<string>otdebug</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>@synchronized</string>
+	<string>otdebug</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
